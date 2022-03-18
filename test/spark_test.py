@@ -1,5 +1,2 @@
-import pytest as pytest
-
-
-def test_my_tests_run():
-    assert True is True
+def test_my_tests_run(spark):
+    assert True
